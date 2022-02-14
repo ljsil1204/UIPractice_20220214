@@ -80,6 +80,7 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="공개안한"/>
 
     </RadioGroup>
@@ -92,6 +93,7 @@
         android:text="이용약관 동의합니다."/>
 
     <CheckBox
+        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="개인정보 이용 동의합니다"/>
@@ -99,6 +101,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#1378C6"
         android:text="sign up"
         android:textAllCaps="false"/>
 
